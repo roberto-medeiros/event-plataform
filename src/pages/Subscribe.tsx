@@ -17,7 +17,9 @@ export function Subscribe() {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
 
-  const [createSubscriber, { loading }] = useMutation(CREATE_SUBSCRIBER_MUTATION)
+  const [createSubscriber, { loading }] = useMutation(
+    CREATE_SUBSCRIBER_MUTATION
+  )
 
   async function handleSubscribe(event: FormEvent) {
     event.preventDefault()
@@ -42,7 +44,7 @@ export function Subscribe() {
             Construa uma{' '}
             <strong className="text-blue-500">aplicação completa</strong>, do
             zero, com{' '}
-            <a href="/event" target={'_blank'}>
+            <a href="https://pt-br.reactjs.org/" target={'_blank'}>
               <strong className="text-blue-500  group-hover:text-green-700 transition-colors">
                 React
               </strong>
