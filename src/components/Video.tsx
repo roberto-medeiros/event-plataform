@@ -116,7 +116,7 @@ export function Video(props: VideoProps) {
             className="bg-gray-700 rounded overflow-hidden flex items-stretch gap-6 hover:bg-gray-700 transition-colors"
           >
             <div className="bg-green-700 h-full p-6 flex items-center">
-              <FileArrowDown size={40} />
+              <FileArrowDown size={24} />
             </div>
             <div className="py-6 leading-relaxed">
               <strong className="text-2xl">Material Complementar</strong>
@@ -135,7 +135,7 @@ export function Video(props: VideoProps) {
             className="bg-gray-700 rounded overflow-hidden flex items-stretch gap-6 hover:bg-gray-700 transition-colors"
           >
             <div className="bg-green-700 h-full p-6 flex items-center ">
-              <FileArrowDown size={40} />
+              <FileArrowDown size={24} />
             </div>
             <div className="py-6 leading-relaxed">
               <strong className="text-2xl ">Wallpapers exclusivos</strong>
