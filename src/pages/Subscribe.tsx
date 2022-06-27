@@ -85,14 +85,13 @@ export function Subscribe() {
               disabled={loading}
               className="mt-4 bg-green-500 uppercase py-4 rounded font-bold text-sm hover:bg-green-700 transition-colors disabled:opacity-50"
             >
-              {' '}
               Garantir minha vaga
             </button>
           </form>
         </div>
       </div>
 
-      <img src="src/assets/code-mockup.png" className="mt-10" alt="" />
+      <img src="/src/assets/code-mockup.png" className="mt-10" alt="" />
     </div>
   )
 }
